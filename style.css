@@ -6,3 +6,34 @@
 #projects {
   background-color: rgb(40, 128, 0, 0.1);
 }
+
+a {
+  text-decoration: none;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-whatsapp {
+  background: #3b5998;
+  color: white;
+}
+.fa-google {
+  background: #3b5998;
+  color: white;
+}
+footer p {
+  margin-bottom: 0px;
+}
