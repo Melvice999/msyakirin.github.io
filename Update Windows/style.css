@@ -1,0 +1,70 @@
+nav {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  background-color: rgb(175, 23, 23);
+  color: rgb(255, 255, 255);
+}
+nav a {
+  font-size: 16pt;
+  color: white;
+  text-decoration: none;
+  margin-top: 0;
+  font-family: "Trebuchet Ms";
+  margin-left: 10px;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 2px #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.banner {
+  background-position: 0 -50px;
+  left: 0;
+  top: 50px;
+  position: fixed;
+  width: 100%;
+  font-family: "Trebuchet Ms";
+  color: rgb(102, 0, 0);
+  height: 100px;
+  background-image: url("Aset/Banner.webp");
+  text-align: center;
+  box-shadow: 0 0 10px;
+}
+.banner h2 {
+  text-shadow: 0 0 5px #ffffff;
+  margin-top: 25px;
+}
+.content {
+  font-size: 14pt;
+  text-align: justify;
+  margin: 200px 15% 0 15%;
+}
+.content b {
+  padding-top: 10px;
+}
+.content b,
+p,
+ul {
+  padding-top: 20px;
+}
+.content li {
+  padding-bottom: 10px;
+}
+
+.footer {
+  padding: 5px 0 5px 0;
+  text-align: center;
+  background-color: rgb(175, 23, 23);
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
