@@ -1,0 +1,29 @@
+body {
+  background-image: url("aset/bg.png");
+  background-repeat: no-repeat;
+  font-family: futura Md BT;
+  color: #2a585c;
+  text-align: center;
+}
+.content {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border-radius: 10px;
+  background-color: #2a585c;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 15pt;
+}
+.btn:hover {
+  background-color: #93f0f8;
+}
+.btn a:hover {
+  color: #2a585c;
+}

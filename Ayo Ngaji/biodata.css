@@ -1,0 +1,12 @@
+body {
+  background-image: url("aset/bg.png");
+  background-repeat: no-repeat;
+  font-family: futura Md BT;
+  color: #2a585c;
+  text-align: center;
+}
+form {
+  max-width: 600px;
+
+  text-align: left;
+}
